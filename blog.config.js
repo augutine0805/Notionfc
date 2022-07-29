@@ -2,10 +2,10 @@
 const BLOG = {
   AUTHOR: 'augustine', // 作者
   BIO: '枥谷', // 作者简介
-  LINK: 'https://wangqiufeng.notion.site/9e6dc0a8c1394f2cbaf9b0f378c37ba2?v=ef7c25f41fa14ab69900f2ccf68259ad', // 网站地址
+  LINK: 'https://wangqiufeng.notion.site/f14fc30ea8aa46728cf5a08ab5d85778?v=da346bfd52b24917a48ed02fd69ed175', // 网站地址
   KEYWORDS: 'Notion, 博客, 北京房产', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
-  process.env.NOTION_PAGE_ID || '9e6dc0a8c1394f2cbaf9b0f378c37ba2', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  process.env.NOTION_PAGE_ID || 'f14fc30ea8aa46728cf5a08ab5d85778', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
